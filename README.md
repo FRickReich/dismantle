@@ -91,7 +91,7 @@ Dismantle is designed to be responsive, wich means that on smaller screens it wi
 
 for desktop layout its possible to use different sizes of grid layouts by using an alternate `container` class, possible are:
 | Class             | Page Width        |
-| ----------------- |:-----------------:|
+| ----------------- | -----------------:|
 | .container        | 960px             |
 | .container-320px  | 320px             |
 | .container-720px  | 720px             |
