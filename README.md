@@ -90,14 +90,14 @@ Desktop columns will always reset to 100% unless you use the `mobile` class on t
 Dismantle is designed to be responsive, wich means that on smaller screens it will automaticly resize and change its layout to be easier to read.
 
 for desktop layout its possible to use different sizes of grid layouts by using an alternate `container` class, possible are:
-| Class             | Page Width        |
-| ----------------- | -----------------:|
-| .container        | 960px             |
-| .container-320px  | 320px             |
-| .container-720px  | 720px             |
-| .container-768px  | 768px             |
-| .container-1218px | 1218px            |
-| .container-fluid  | 100%              |
+Class | Page Width
+--- | --- 
+.container | 960px
+.container-320px | 320px
+.container-720px | 720px
+.container-768px | 768px
+.container-1218px | 1218px
+.container-fluid | 100%
 
 
 ## Dependencies
@@ -108,10 +108,10 @@ Dismantle uses __Normalize.css__ for consistency, but its not needed for it to r
 * v0.1 - Initial Release.
 * v0.1b - Bugfixes in demo file.
 * v0.2 - Added mobile grid.
+* v0.3 - Added multiple resolution grid.
 
 
 ## Todo
-- Different standard resolutions.
 - Typography styles.
 - Tablet specific layout.
 
