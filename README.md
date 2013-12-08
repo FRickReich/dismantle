@@ -98,6 +98,7 @@ For desktop layout its possible to use different sizes of grid layouts by using 
 * .container-720px = 720 pixels wide.
 * .container-768px = 768 pixels wide.
 * .container-1218px = 1218 pixels wide.
+* .container-1382px = 1382 pixels wide.
 * .container-fluid = 100% page width.
 
 
@@ -114,7 +115,6 @@ Dismantle uses __Normalize.css__ for consistency, but its not needed for it to r
 
 ## Todo
 - Typography styles.
-- Tablet specific layout.
 
 
 ## License
