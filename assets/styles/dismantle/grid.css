@@ -15,9 +15,9 @@
 .mobile-10 { width:81.25%; }
 .mobile-12 { width:97.917%; }
 
-.container { 
-	width: 90%; 
+[class*="container"] {
 	margin: 0 auto;
+	width: 90%; 
 }
 
 .row {
@@ -70,5 +70,11 @@
 	
 	.pull-right { float: right; }
 	
-	.container { width: 960px; }
+	.container-320px { width: 320px; }
+	.container-720px { width: 720px; }
+	.container-768px { width: 768px; }
+	.container,
+	.container-960px { width: 960px; }
+	.container-1218px { width: 1218px; }
+	.container-fluid { width: 100%; }
 }
