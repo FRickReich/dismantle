@@ -89,7 +89,9 @@ Desktop columns will always reset to 100% unless you use the `mobile` class on t
 ## Responsive
 Dismantle is designed to be responsive, wich means that on smaller screens it will automaticly resize and change its layout to be easier to read.
 
-for desktop layout its possible to use different sizes of grid layouts by using an alternate `container` class, possible are:
+### Different page width templates.
+
+For desktop layout its possible to use different sizes of grid layouts by using an alternate `container` class, possible are:
 
 * .container = 960 pixels wide.
 * .container-320px = 320 pixels wide.
