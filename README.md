@@ -43,6 +43,11 @@ Dismantle is designed to be responsive, wich means that on smaller screens it wi
 Dismantle uses __Normalize.css__ for consistency, but its not needed for it to run.
 
 
+## Version History
+* v0.1 - Initial Release
+* v0.1b - Bugfixes in demo file.
+
+
 ## Todo
 - Add mobile columns
 - Add different standard resolutions
@@ -50,5 +55,5 @@ Dismantle uses __Normalize.css__ for consistency, but its not needed for it to r
 
 
 ## License
-Dismantle 0.1 - Copyright (c) 2013 F. Rick Reich. Licensed under the terms of the MIT license.
+Copyright (c) 2013 F. Rick Reich. Licensed under the terms of the MIT license.
 http://frickreich.mit-license.org/
