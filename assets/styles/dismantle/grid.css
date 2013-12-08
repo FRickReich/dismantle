@@ -15,14 +15,19 @@
 .mobile-10 { width:81.25%; }
 .mobile-12 { width:97.917%; }
 
-.container .row { width: 90%; }
+.container { 
+	width: 90%; 
+	margin: 0 auto;
+}
 
 .row {
+	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
 }
 
 .row .row {
+	width: 100%;
     margin: 0 -10px;
     width: auto;
 }
@@ -65,5 +70,5 @@
 	
 	.pull-right { float: right; }
 	
-	.container .row { width: 960px; }
+	.container { width: 960px; }
 }

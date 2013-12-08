@@ -24,6 +24,26 @@ After you have done this, you can use Dismantle like this:
 </div>
 ```
 
+You can easily stack grads into each other too by nesting the row/column layout.
+
+```html
+<div class="row">
+	<div class="col-3">
+		<!-- A sidebar -->
+	</div>
+	<div class="col-9">
+		<div class="row">
+			<div class="col-8">
+				<!-- main content inside of another column -->
+			</div>
+			<div class="col-4">
+				<!-- more content area inside of a different column -->
+			</div>
+		</div>
+	</div>
+</div>
+```
+
 Additionally Dismantle can pull content to the side by using the `pull` class together with the amount of colums you want the content to be pushed, like this:
 
 ```html
