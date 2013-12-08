@@ -1,5 +1,5 @@
 # DISMANTLE
-###### An easy and lightweight css framework...
+###### An easy and lightweight mobile-first css framework...
 
 
 ## How to use Dismantle?
@@ -34,6 +34,21 @@ Additionally Dismantle can pull content to the side by using the `pull` class to
 </div>
 ```
 
+In addition you can pull any content on the far right by using the `pull-right` class.
+
+Since Dismantle is mobile first you can specify columns differenly from the desktop layout. 
+Desktop columns will always reset to 100% unless you use the `mobile` class on them.
+
+```html
+<div class="row">
+	<div class="col-10 mobile-8">
+		<!-- this is 10 columns on desktop and 8 columns on mobile -->
+	</div>
+	<div class="col-2 mobile-4">
+		<!-- this is 2 columns on desktop and 4 on mobile -->
+	</div>
+</div>
+```
 
 ## Responsive
 Dismantle is designed to be responsive, wich means that on smaller screens it will automaticly resize and change its layout to be easier to read.
@@ -44,14 +59,15 @@ Dismantle uses __Normalize.css__ for consistency, but its not needed for it to r
 
 
 ## Version History
-* v0.1 - Initial Release
+* v0.1 - Initial Release.
 * v0.1b - Bugfixes in demo file.
+* v0.2 - Added mobile grid.
 
 
 ## Todo
-- Add mobile columns
-- Add different standard resolutions
-- Add Typography styles
+- Different standard resolutions.
+- Typography styles.
+- Tablet specific layout.
 
 
 ## License
