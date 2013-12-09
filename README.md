@@ -111,6 +111,7 @@ Dismantle uses __Normalize.css__ for consistency, but its not needed for it to r
 * v0.1b - Bugfixes in demo file.
 * v0.2 - Added mobile grid.
 * v0.3 - Added multiple resolution grid.
+* v0.4 - Added more demos and minified version.
 
 
 ## Todo
