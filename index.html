@@ -3,152 +3,24 @@
 	<head>
 		
 		<meta charset="utf-8">
+		
 		<title>Dismantle.gs - The intuitive and easy framework</title>
+
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="An Intuitive and easy to use front-end framework for mobile-first web development.">
 		<meta name="keywords" content="Responsive,grid system,grid,grid layout,layout,layout engine,css,css3,html5">
 		
 		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 		<link rel="icon" href="/favicon.ico" type="image/x-icon">
-		
 		<link rel="canonical" href="http://dismantle.gs"/>
-		
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
 
-		<link rel="stylesheet" href="styles/framework.css" type="text/css">
-		<link rel="stylesheet" href="styles/pygment_trac.css" type="text/css">
+		<link rel="stylesheet" href="assets/styles/framework.css" type="text/css">
+		<link rel="stylesheet" href="assets/styles/pygment_trac.css" type="text/css">
 		
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script type="text/javascript">
-		(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
-		typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);
-		b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
-		mixpanel.init("ae0599f1de010b4dfad6820e726e1433");
-		</script>
-		
-		<script type="text/javascript">
-		    mixpanel.track("Loaded Homepage")
-			
-			$("#github").click(function() {
-			    mixpanel.track("Went to Github"); 
-			});
-			
-			$("#zip").click(function() {
-			    mixpanel.track("Downloaded Zip file"); 
-			});
-			
-			$("#tar").click(function() {
-			    mixpanel.track("Downloaded Tar file"); 
-			});
-		</script>
-		
-		<style>
-		
-		/* CUSTOM STYLES */
-		body {
-			font-family: 'Noto Sans', sans-serif;
-			font-size: 14px;
-			color: #333;
-			background: #C12026;
-		}
-		
-		header {
-			height: 200px;
-			color: white;
-		}
-		header h1 {
-			text-align: center;
-			font-size: 60px;
-			line-height: 50px;
-			margin: 50px 0 10px;
-		}
-		header h3 {
-			text-align: center;
-			font-size: 20px;
-			margin: 5px 0;
-			font-weight: 100;
-		}
-		hr {
-			line-height: 10px;
-			background: rgba(255,255,255,0.5);
-			height: 1px;
-			border: none;
-		}
-		
-		#page {
-			padding: 70px 10px;
-			background: #222222;
-			color: white;
-		}
-		
-		#downloads {
-		  position: relative;
-		  width: 210px;
-		  z-index: 10;
-		  float: right;
-		  bottom: -10px;
-		  right: 10px;
-		  height: 70px;
-		  background: url('	images/icon_download.png') no-repeat 0% 90%;
-		}
-
-		.zip_download_link {
-		  display: block;
-		  float: right;
-		  width: 90px;
-		  height:70px;
-		  text-indent: -5000px;
-		  overflow: hidden;
-		  background: url(images/sprite_download.png) no-repeat bottom left;
-		}
-
-		.tar_download_link {
-		  display: block;
-		  float: right;
-		  width: 90px;
-		  height:70px;
-		  text-indent: -5000px;
-		  overflow: hidden;
-		  background: url(images/sprite_download.png) no-repeat bottom right;
-		  margin-left: 10px;
-		}
-
-		.zip_download_link:hover {
-		  background: url(images/sprite_download.png) no-repeat top left;
-		}
-
-		.tar_download_link:hover {
-		  background: url(images/sprite_download.png) no-repeat top right;
-		}
-		
-		footer {
-			min-height: 100px;
-			text-align: center;
-			font-size: 11px;
-			color: white;
-		}
-		footer a {
-			color: #CCC;
-		}
-		footer a:hover {
-			color: white;
-			text-decoration: underline;
-		}
-
-		pre {
-			padding: 20px;
-		}
-
-		[class*="container"] .row .row [class*="col"] {
-			min-height: 40px;
-			line-height: 40px;
-			margin-bottom: 12px;
-			background: rgba(0,0,0,0.025);
-			text-align: center;
-		}
-		
-		</style>
+		<script src="assets/scripts/custom.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
 		

@@ -1,0 +1,109 @@
+/* Import Normalize.css */
+@import url("normalize.css");
+
+/* Import Dismantle.css Module */
+@import url("dismantle/grid.css");
+
+/* User Custom Styles */
+
+body {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 14px;
+	color: #333;
+	background: #C12026;
+}
+
+header {
+	height: 200px;
+	color: white;
+}
+header h1 {
+	text-align: center;
+	font-size: 60px;
+	line-height: 50px;
+	margin: 50px 0 10px;
+}
+header h3 {
+	text-align: center;
+	font-size: 20px;
+	margin: 5px 0;
+	font-weight: 100;
+}
+hr {
+	line-height: 10px;
+	background: rgba(255,255,255,0.5);
+	height: 1px;
+	border: none;
+}
+
+#page {
+	padding: 70px 10px;
+	background: #222222;
+	color: white;
+}
+
+#downloads {
+  position: relative;
+  width: 210px;
+  z-index: 10;
+  float: right;
+  bottom: -10px;
+  right: 10px;
+  height: 70px;
+  background: url('../../assets/images/icon_download.png') no-repeat 0% 90%;
+}
+
+.zip_download_link {
+  display: block;
+  float: right;
+  width: 90px;
+  height:70px;
+  text-indent: -5000px;
+  overflow: hidden;
+  background: url('../../assets/images/sprite_download.png') no-repeat bottom left;
+}
+
+.tar_download_link {
+  display: block;
+  float: right;
+  width: 90px;
+  height:70px;
+  text-indent: -5000px;
+  overflow: hidden;
+  background: url('../../assets/images/sprite_download.png') no-repeat bottom right;
+  margin-left: 10px;
+}
+
+.zip_download_link:hover {
+  background: url('../../assets/images/sprite_download.png') no-repeat top left;
+}
+
+.tar_download_link:hover {
+  background: url('../../assets/images/sprite_download.png') no-repeat top right;
+}
+
+footer {
+	min-height: 100px;
+	text-align: center;
+	font-size: 11px;
+	color: white;
+}
+footer a {
+	color: #CCC;
+}
+footer a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+pre {
+	padding: 20px;
+}
+
+[class*="container"] .row .row [class*="col"] {
+	min-height: 40px;
+	line-height: 40px;
+	margin-bottom: 12px;
+	background: rgba(0,0,0,0.025);
+	text-align: center;
+}
