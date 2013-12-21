@@ -27,7 +27,19 @@
 		</script>
 		
 		<script type="text/javascript">
-		    mixpanel.track("Landing Page Loaded")
+		    mixpanel.track("Loaded Homepage")
+			
+			$("#github").click(function() {
+			    mixpanel.track("Went to Github"); 
+			});
+			
+			$("#zip").click(function() {
+			    mixpanel.track("Downloaded Zip file"); 
+			});
+			
+			$("#tar").click(function() {
+			    mixpanel.track("Downloaded Tar file"); 
+			});
 		</script>
 		
 		<style>
@@ -139,7 +151,7 @@
 	</head>
 	<body>
 		
-		<a href="https://github.com/FRickReich/Dismantle">
+		<a id="github" href="https://github.com/FRickReich/Dismantle">
 			<img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub">
 		</a>
 		
@@ -154,8 +166,8 @@
 				</div>
 
 				<section id="downloads">
-					<a class="zip_download_link" href="https://github.com/FRickReich/Dismantle.gs/zipball/master">Download this project as a .zip file</a>
-					<a class="tar_download_link" href="https://github.com/FRickReich/Dismantle.gs/tarball/master">Download this project as a tar.gz file</a>
+					<a class="zip_download_link" id="zip" href="https://github.com/FRickReich/Dismantle.gs/zipball/master">Download this project as a .zip file</a>
+					<a class="tar_download_link" id="tar" href="https://github.com/FRickReich/Dismantle.gs/tarball/master">Download this project as a tar.gz file</a>
 				</section>
 				
 			</div>
