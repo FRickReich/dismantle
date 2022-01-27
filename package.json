@@ -1,0 +1,29 @@
+{
+  "name": "dismantle",
+  "version": "2.0.0",
+  "description": "dismantle version 2",
+  "scripts": {
+    "prepare": "husky install",
+    "release": "standard-version",
+    "commit": "cz"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.1.0",
+    "@commitlint/config-conventional": "^16.0.0",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^7.0.4",
+    "standard-version": "^9.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FRickReich/dismantle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FRickReich/dismantle/issues"
+  },
+  "homepage": "https://github.com/FRickReich/dismantle#readme"
+}

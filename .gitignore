@@ -1,2 +1,2 @@
-_legacy
-.DS_Store
+/node_modules
+/_legacy
